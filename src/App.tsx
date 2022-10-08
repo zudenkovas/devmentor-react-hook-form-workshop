@@ -1,32 +1,13 @@
-import { Typography, Link } from "@mui/material";
-import { styled, keyframes } from "@mui/material/styles";
+import Header from 'components/Header'
+import MainRouter from 'navigation/MainRouter'
 
-const Wrapper = styled("div")`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-`;
-
-const StyledLink = styled(Link)`
-  font-family: "Space Grotesk";
-`;
-
-function App() {
+function App () {
   return (
-    <Wrapper>
-      <Typography variant="h1">
-        <StyledLink
-          color="inherit"
-          href="https://www.devmentor.online"
-          underline="none"
-          target="_blank"
-        >
-          dev<span>.</span>mentor
-        </StyledLink>
-      </Typography>
-    </Wrapper>
-  );
+    <>
+      <Header />
+      <MainRouter />
+    </>
+  )
 }
 
-export default App;
+export default App
