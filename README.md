@@ -1,6 +1,6 @@
 # dev.mentor React workshop
 
-In this project you will build a searchable list of country cards with Covid-19 statistics and on the way you will learn how to apply Material-UI components, how to make requests with a help of React-Query library, using React-Router to navigate between the screens, and all this using the most popular library for building interactive user interfaces - React.
+In this project you will build a user registration form with a help of react-hook-form and yup validator.
 
 ## Before start
 
@@ -34,4 +34,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
-Documentations to [Material-UI](https://mui.com/), [React-Query](https://react-query.tanstack.com/), [React-Router](https://reactrouter.com/).
+Documentations to [Material-UI](https://mui.com/), [React-Query](https://react-query.tanstack.com/), [React-Router](https://reactrouter.com/), [React-hook-form](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup).
